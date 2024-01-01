@@ -3,3 +3,17 @@ pyromod==1.5
 TgCrypto
 telethon==1.26.1
 rich==13.3.1
+pip
+setuptools
+pip
+pyrogram 
+tgcrypto
+telegraph
+wget
+redis
+youtube-search-python
+pydub
+asyncio
+python-string-utils
+SpeechRecognition
+pytz

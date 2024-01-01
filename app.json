@@ -1,51 +1,42 @@
 {
-    "name": "RomeosessionHBot",
-    "description": "group destroer",
-    "logo": "https://telegra.ph//file/87fa102aa588b71f43b08.jpg",
+    "name": "ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/14c7948ad180050fe16e4.jpg",
     "keywords": [
-        "pytgcalls",
-        "telegram bot",
-        "banall"
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
     ],
-    "website": "https://t.me/RomeoBot_op",
-    "repository": "https://github.com/RJ-5/RomeosessionHbot",
-    "success_url": "https://t.me/RomeoBot_op",
     "env": {
-        "API_ID": {
-            "description": "your API_ID from my.telegram.org",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
-            "required": true
-        },
-        "TOKEN": {
-            "description": "your bot token from @BotFather",
-            "required": true
-        },
-        "START_PIC": {
-            "description": "upload any pic on telegram and link paste hare.",
-            "required": true
-            "value": "https://telegra.ph//file/87fa102aa588b71f43b08.jpg"
-        }
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "5728997104:AAEWbbyQsnTCVpka5fK8LjsfRIUmhS5no44",
+        "required": true
+      },
+      "USER_OWNER": {
+        "description": "يوزر المطور",
+        "value": "Z0HARY",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "",
+        "required": true
     },
-    "addons": [],
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "Eco"
-        }
-    },
-    "stack": "container"
-    }
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
