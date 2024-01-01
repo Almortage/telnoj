@@ -26,6 +26,7 @@
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
+        }
     },
     "buildpacks": [
           {
